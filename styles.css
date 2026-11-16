@@ -4,7 +4,55 @@
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+html {
+  font-size: 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--slate-900);
+}
+
+.container {
+  width: 15%;
+  height: 45%;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.qr-code {
+  padding: 1rem;
+}
+.qr-code img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.information {
+  padding: 1rem 2rem;
+}
+.information header {
+  margin-bottom: 1rem;
+}
+.information header h1 {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+}
+.information summary p {
+  font-size: 1.1rem;
+  color: var(--slate-500);
+  text-align: center;
+}
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
