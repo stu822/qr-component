@@ -42,4 +42,4 @@ I would like to continue to refine a good workflow to I'm not just 'figuring it 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/stu822)
+- Frontend Mentor - [@stu822](https://www.frontendmentor.io/profile/stu822)
